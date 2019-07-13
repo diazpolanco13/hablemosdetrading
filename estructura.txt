@@ -1,0 +1,14 @@
+<h4> <b>Triángulo Diagonal tipo 1. Pauta Terminal</b></h4>
+    <p>
+      <h5> <b>Descripción</b></h5>
+
+       <h5> <b>Reglas y normas</b></h5>
+         <ul>
+           <li></li>
+        </ul>
+                          
+       <h5> <b>¿En qué onda?</b></h5>
+
+       <h5> <b>Estructura Interna</b></h5>
+                           
+    </p>
