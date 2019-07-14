@@ -83,7 +83,7 @@
                            </ul>
                            <div class="dx-auth-block">
                               <div class="dx-auth-logged-out">
-                                 <a class="dx-auth-login dx-btn dx-btn-primary" data-js="auth-btn" href="javascript:void(0);"
+                                 <a class="dx-auth-login dx-btn dx-btn-primary" data-js="auth-btn" href="./index.html"
                                     data-dxa="login,nav-click,nav-login">Inicio</a>
                               </div>
                            </div>
@@ -129,7 +129,7 @@
                            <li><a href="#documenter-3-4">Afinidad</a></li>
                          </ol>
                       </li>
-                      <li><a href="#documenter-4"><i class="fa fa-line-chart"></i>Ondas de Impulso <b>+</b></a>
+                      <li><a href="#documenter-4"><i class="fa fa-line-chart"></i>Ondas de Impulso <b></b></a>
                         <ol>
                           <li><a href="#documenter-4-1">La Onda 1</a></li>
                           <li><a href="#documenter-4-2">La Onda 2</a></li>
@@ -138,7 +138,7 @@
                           <li><a href="#documenter-4-5">La Onda 5</a></li>
                         </ol>
                        </li>
-                      <li><a href="#documenter-5"><i class="fa fa-area-chart"></i>Ondas de corrección <b>+</b></a>
+                      <li><a href="#documenter-5"><i class="fa fa-area-chart"></i>Ondas de corrección <b></b></a>
                         <ol>
                            <li><a href="#documenter-5-1">Onda A </a></li>
                            <li><a href="#documenter-5-2">Onda B</a> </li>
@@ -147,6 +147,24 @@
                      </li>
                      <li><a href="./patrones-elliot.html"><i class="fa fa-braille"></i>Patrones</a>
                   </ol>
+                  <!-- Widget BEGIN -->
+                  <script type="text/javascript">
+                     baseUrl = "https://widgets.cryptocompare.com/";
+                     var scripts = document.getElementsByTagName("script");
+                     var embedder = scripts[ scripts.length - 1 ];
+                     (function (){
+                     var appName = encodeURIComponent(window.location.hostname);
+                     if(appName==""){appName="local";}
+                     var s = document.createElement("script");
+                     s.type = "text/javascript";
+                     s.async = true;
+                     var theUrl = baseUrl+'serve/v1/coin/chart?fsym=BTC&tsym=USD';
+                     s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                     embedder.parentNode.appendChild(s);
+                     })();
+                     </script>
+   
+                     <!-- Widget END -->
                </div>
             </div>
          </div>
@@ -996,40 +1014,42 @@
                </li>
                <li>
                   <a>MENU DE INICIO</a>
-                     <li><a href="#documenter-1">Richard D. Wyckoff</a> </li>
-                     <li><a href="#documenter-2">El metodo Wyckoff </a>
-                       <ul>
-                         <li><a href="#documenter-2-1">Las 3 leyes del mercado</a></li>
-                         <li><a href="#documenter-2-2">Ley de causa y efecto</a></li>
-                         <li><a href="#documenter-2-3">Ley de efuerzo y resultado</a></li>
-                       </ul>
+                     <li> <a href="#documenter-1"><i class="fa fa-male"></i>Ralph Elliott</a></li>
+                     <li><a href="#documenter-2"><i class="fa fa-bars"></i>Conceptos</a>
+                        <ul>
+                          <li><a href="#documenter-2-1">Ciclos</a></li>
+                          <li><a href="#documenter-2-2">Fibonacci</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#documenter-3"><i class="fa fa fa-book"></i>Enfoque fractal</a>
+                        <ul>
+                           <li><a href="#documenter-3-1">Objetos</a></li>
+                           <li><a href="#documenter-3-2">Escalamiento</a></li>
+                           <li><a href="#documenter-3-3">Similitud</a></li>
+                           <li><a href="#documenter-3-4">Afinidad</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#documenter-4"><i class="fa fa-line-chart"></i>Ondas de Impulso <b></b></a>
+                        <ul>
+                          <li><a href="#documenter-4-1">La Onda 1</a></li>
+                          <li><a href="#documenter-4-2">La Onda 2</a></li>
+                          <li><a href="#documenter-4-3">La Onda 3</a></li>
+                          <li><a href="#documenter-4-4">La Onda 4</a></li>
+                          <li><a href="#documenter-4-5">La Onda 5</a></li>
+                        </ul>
+                       </li>
+                      <li><a href="#documenter-5"><i class="fa fa-area-chart"></i>Ondas de corrección <b></b></a>
+                        <ul>
+                           <li><a href="#documenter-5-1">Onda A </a></li>
+                           <li><a href="#documenter-5-2">Onda B</a> </li>
+                           <li><a href="#documenter-5-3">Onda C</a> </li>
+                        </ul>
                      </li>
-                     <li><a href="#documenter-3">Ciclos del mercado</a></li>
-                     <li><a href="#documenter-4">Fase de acumulacion</a>
-                       <ul>
-                         <li><a href="#documenter-4-1">Fase A</a></li>
-                         <li><a href="#documenter-4-2">Fase B</a> </li>
-                         <li><a href="#documenter-4-3">Fase C</a> </li>
-                         <li><a href="#documenter-4-4">Fase D</a> </li>
-                         <li><a href="#documenter-4-5">Fase E</a> </li>
-                       </ul>
-                     </li>
-                     <li><a href="#documenter-5">Fase de distribucion</a>
-                       <ul>
-                          <li><a href="#documenter-5-1">Fase A</a></li>
-                          <li><a href="#documenter-5-2">Fase B</a> </li>
-                          <li><a href="#documenter-5-3">Fase C</a> </li>
-                          <li><a href="#documenter-5-4">Fase D</a> </li>
-                          <li><a href="#documenter-5-5">Fase E</a> </li>
-                       </ul>
-                     </li>
-               </li>
-            </ul>
+                     <li><a href="./patrones-elliot.html"><i class="fa fa-braille"></i>Patrones</a>
+                  </ul>
+
             <div class="top-links">
                <ul class="links">
-                  <li><a title="Docs" href="javascript:void(0)">Enlace1</a> </li>
-                  <li><a title="API Reference" href="javascript:void(0)">Enlace2</a> </li>
-                  <li><a title="Support" href="javascript:void(0)">Enlace3<a> </li>
                   <li class="last"><a title="Login" href="javascript:void(0)">Login</a> </li>
                </ul>
             </div>
