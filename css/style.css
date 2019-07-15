@@ -1966,10 +1966,27 @@ blockquote.card-quotes footer, blockquote.card-quotes small, blockquote.card-quo
 .header-section-wrapper {
   position: relative !important;
   width: 100% !important;
+  z-index: 99 !important;
 }
 
 @media (max-width: 767px) {
   .logo-logo {
-    width: 100px;
+    width: 0;
+  }
+
+  .header__nav {
+    position: fixed;
+    top: 0;
+    right: -75px;
+  }
+
+  .header__nav--left {
+    width: 100%;
+  }
+
+  .dx-nav-0 {
+    overflow: auto;
+    display: flex;
+    width: calc(100% - 65px);
   }
 }
