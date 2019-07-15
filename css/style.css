@@ -1958,3 +1958,18 @@ blockquote.card-quotes footer, blockquote.card-quotes small, blockquote.card-quo
 .font-title {
     font-family: 'Montserrat', sans-serif;
 }
+
+#documenter_content ul li {
+  margin: 0;
+}
+
+.header-section-wrapper {
+  position: relative !important;
+  width: 100% !important;
+}
+
+@media (max-width: 767px) {
+  .logo-logo {
+    width: 100px;
+  }
+}
