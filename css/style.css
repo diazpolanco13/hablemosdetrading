@@ -1975,8 +1975,8 @@ blockquote.card-quotes footer, blockquote.card-quotes small, blockquote.card-quo
   }
 
   .header__nav {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: -55px;
     right: -75px;
   }
 
@@ -1988,5 +1988,9 @@ blockquote.card-quotes footer, blockquote.card-quotes small, blockquote.card-quo
     overflow: auto;
     display: flex;
     width: calc(100% - 65px);
+  }
+
+  .mm-toggle-wrap {
+    z-index: 999;
   }
 }
