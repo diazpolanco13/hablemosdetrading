@@ -108,13 +108,14 @@
                <div id="scroll" class="scroll">
                   <ol id="documenter_nav">
                      <li>
-                        <a href="#documenter-1"><i class="fa fa fa-book"></i>Menu 1</a>
+                        <a href="#documenter-1"><i class="fa fa fa-book"></i>El Chartimo</a>
                       <li>
-                        <a href="#documenter-2"><i class="fa fa-bars"></i>Menu 2</a>
+                        <a href="#documenter-2"><i class="fa fa-expand" aria-hidden="true"></i>Tendencias</a>
                         <ol>
-                           <li><a href="#documenter-2-1">Menu 2-1</a></li>
-                           <li><a href="#documenter-2-2">Menu 2-2</a></li>
-                           <li><a href="#documenter-2-3">Menu 2-3</a></li>
+                           <li><a href="#documenter-2-1">Directriz alcista</a></li>
+                           <li><a href="#documenter-2-2">Directriz bajista</a></li>
+                           <li><a href="#documenter-2-3">Canales</a></li>
+                           <li><a href="#documenter-2-4">Soportes y resistencias</a></li>
                         </ol>
                       </li>
                       <li>
@@ -135,10 +136,28 @@
                       </li>
                      <li><a href="./index.html"><i class="fa fa-male"></i>Volver Inicio</a>
                   </ol>
+                             <!-- Widget BEGIN -->
+           <script type="text/javascript">
+            baseUrl = "https://widgets.cryptocompare.com/";
+            var scripts = document.getElementsByTagName("script");
+            var embedder = scripts[ scripts.length - 1 ];
+            (function (){
+            var appName = encodeURIComponent(window.location.hostname);
+            if(appName==""){appName="local";}
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            var theUrl = baseUrl+'serve/v1/coin/chart?fsym=BTC&tsym=USD';
+            s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+            embedder.parentNode.appendChild(s);
+            })();
+            </script>
+
+            <!-- Widget END -->
                </div>
             </div>
          </div>
-         <!-- end sidebar -->
+
          <!-- Section Background -->
          <div id="background">
             <div class="background-actual"></div>
@@ -155,18 +174,19 @@
                <div class="method-area">
                   <div class="method-copy">
                      <div class="method-copy-padding">
-                         <h3><b>TITULO DEL TEMA</b></h3>
+                         <h3><b>¿Qué es el chartismo?</b></h3>
                            <p>
-                            Contenido de la pagina. 
+                              Chartismo proviene de la palabra inglesa “chart” y significa gráfico. El chartismo consiste básicamente en el estudio de los gráficos. El chartista usa los gráficos para su análisis, utiliza el precio y ningún otro instrumento. Se diferencia del analista técnico en que este último usa  más herramientas para la toma de  decisiones como por ejemplo medias móviles o indicadores. Por tanto, el chartismo es el estudio de los gráficos basándose solamente en el precio. <br><br> <b> Como norma general podemos decir que todos los analistas técnicos son chartistas, pero no todos los chartistas son analistas técnicos. </b> <br><br>
+                              Este manual tiene como objetivo aprender a identificar y determinar los principales elementos del chartismo, veremos de manera simple y detallada que son las tendencias, los canales, los soportes, las resistencias, las principales figuras chartistas, los pullbacks y los gaps, así como su interpretación de cada una de ellas para poder tomar de decisiones de inversión.
                               </p> 
                      </div>
                   </div>
                   <div class="method-example">
                      <div class="method-example-part">
-                           <h5>Titulo de la imagen</h5>
-                           <p> <img src="images/contruccion.jpg" alt="titulo de la imagen" onclick="Zoom(this)">  </p>
+                           <h5>Patrones chartistas</h5>
+                           <p> <img src="fotos/chartismo/imagenes-chartistas.jpg" alt="chartimo" onclick="Zoom(this)">  </p>
                           <blockquote class="darker-grey">
-                             <p><a href="https://es.wikipedia.org">https://es.wikipedia.org/</a>.</p>
+                             <p><a href="https://es.wikipedia.org/wiki/An%C3%A1lisis_Gr%C3%A1fico_(Chartismo)">https://es.wikipedia.org/</a>.</p>
                              <footer>Si quieres mas informacion visita esta pagina</cite></footer>
                           </blockquote>
                      </div>
@@ -179,20 +199,33 @@
     <div class="method-area">
        <div class="method-copy">
           <div class="method-copy-padding">
-            <h3><b>TITULO DEL TEMA</b></h3>
+            <h3><b>LAS TENDENCIAS</b></h3>
             <p>
-             Contenido de la pagina. 
+               Si observamos las cotizaciones de los precios en un gráfico vemos que se mueven por tendencias. Nos encontramos con una tendencia cuando durante un periodo de tiempo las cotizaciones de un activo determinado tienden a seguir una dirección ascendente o descendente. Si la trayectoria es ascendente nos encontramos delante de una tendencia alcista, si por el contrario la trayectoria es descendente, estamos ante en una tendencia bajista. <br><br>
+               Puede que durante un periodo concreto el precio no muestre una trayectoria ni ascendente ni descendente, si ocurre esta situación nos encontramos ante una fase lateral o sin tendencia.<br><br>
+               Determinar la tendencia para tomar decisiones de inversión es básico, es quizá uno de los aspectos más importantes para poder invertir. Antes de tomar alguna posición larga o corta en el mercado tenemos que saber en qué tendencia se encuentra el activo en cuestión, nunca abriremos una posición corta en una tendencia alcista ni larga en una tendencia bajista. Si el activo se encuentra en una fase lateral mejor no invertir, desestimaremos ese activo y buscaremos otro que se encuentre en tendencia.<br><br>
+
+               <h5> <b>"Falsa ruptura":</b></h5> El activo supera la Linea de tendencia, pero no logra confirmar la ruptura, y vuelve a su tendencia actual.<br><br>
+
+               <h5> <b> "Ruptura y rebote de confirmación":</b></h5> El activo supera eficientemente la tendencia, y busca rebotar en la linea confirmando la ruptura y cambiando su tendencia actual, este rebote de confirmación puede ser un"Pullback" o un "Throwback"
+
                </p> 
       </div>
    </div>
    <div class="method-example">
       <div class="method-example-part">
-            <h5>Titulo de la imagen</h5>
-            <p> <img src="images/contruccion.jpg" alt="titulo de la imagen" onclick="Zoom(this)">  </p>
+            <h5>Tendencias del trading</h5>
+            <p> <img src="fotos/chartismo/tendencias.jpg" alt="Tendencias del trading" onclick="Zoom(this)">  </p>
            <blockquote class="darker-grey">
-              <p><a href="https://es.wikipedia.org">https://es.wikipedia.org/</a>.</p>
+              <p><a href="https://es.wikipedia.org/wiki/Tendencias_de_mercado">https://es.wikipedia.org/</a>.</p>
               <footer>Si quieres mas informacion visita esta pagina</cite></footer>
-           </blockquote>
+           </blockquote> <br><br><br><br><br><br>
+           <h5>"Ruptura de linea de tendencia":</h5>
+           <p> <img src="fotos/chartismo/pullback.jpg" alt="Linea de tendencia alcista" onclick="Zoom(this)">  </p>
+          <blockquote class="darker-grey">
+             <p><a href="https://en.wikipedia.org/wiki/Price_action_trading#Pull-back">https://es.wikipedia.org/</a>.</p>
+             <footer>Si quieres mas informacion visita esta pagina</cite></footer>
+          </blockquote>
          </div>
        </div>
     </div>
@@ -201,20 +234,30 @@
             <div class="method-area">
                <div class="method-copy">
                   <div class="method-copy-padding">
-                    <h3><b>TITULO DEL TEMA</b></h3>
+                    <h3><b>Directriz alcista</b></h3>
                     <p>
-                     Contenido de la pagina. 
+                     Una directriz alcista es la línea que une los mínimos que forman las cotizaciones en una tendencia alcista. Es la línea que une los mínimos que forman los valles de las  cotizaciones, se tiene que trazar siempre por debajo uniendo los mínimos ascendentes. Es muy importante saber cuándo se ha roto la directriz alcista ya que en ese momento los precios comenzaran a descender. Para estar seguros de que la directriz se ha roto tenemos que dar un margen al precio, ya que muchas veces se producen roturas falsas y el precio continúa ascendiendo. <br><br>
+                       </p> 
+                       <h5><b>"Pullback": </b></h5>
+                    <p>
+                     Cuando el activo hace una ruptura a la baja, es decir, cambia su tendencia de Alcista a Bajista, primero rompe la tendencia, y luego vuelve a tocar la linea para seguir a la baja, confirmando el cambio de tendencia. Este es el momento de VENTA (Posicionarse Bajista).
                        </p> 
               </div>
            </div>
            <div class="method-example">
               <div class="method-example-part">
-                    <h5>Titulo de la imagen</h5>
-                    <p> <img src="images/contruccion.jpg" alt="titulo de la imagen" onclick="Zoom(this)">  </p>
+                    <h5>Linea de tendencia alcista</h5>
+                    <p> <img src="fotos/chartismo/tendencia-alcista.jpg" alt="Linea de tendencia alcista" onclick="Zoom(this)">  </p>
                    <blockquote class="darker-grey">
                       <p><a href="https://es.wikipedia.org">https://es.wikipedia.org/</a>.</p>
                       <footer>Si quieres mas informacion visita esta pagina</cite></footer>
-                   </blockquote>
+                   </blockquote> <br><br>
+                   <h5>Ruptura de tendencia alcista</h5>
+                   <p> <img src="fotos/chartismo/pullback-alcista.jpg" alt="ruptura de tendencia alcista" onclick="Zoom(this)">  </p>
+                  <blockquote class="darker-grey">
+                     <p><a href="https://es.wikipedia.org">https://es.wikipedia.org/</a>.</p>
+                     <footer>Si quieres mas informacion visita esta pagina</cite></footer>
+                  </blockquote>
                  </div>
                </div>
             </div>
@@ -223,18 +266,28 @@
                <div class="method-area">
                   <div class="method-copy">
                      <div class="method-copy-padding">
-                       <h3><b>TITULO DEL TEMA</b></h3>
+                       <h3><b>Directriz bajista</b></h3>
                        <p>
-                        Contenido de la pagina. 
-                          </p> 
+                        Una directriz bajista es la línea que une los máximos consecutivos cada vez más bajos que forman las cotizaciones. Al igual que el caso anterior es muy importante conocer cuando se ha roto la directriz ya que los precios tendrán tendencia a subir. Para estar seguros que se ha roto la directriz tenemos que dar un margen de movimiento al precio para evitar roturas falsas.<br><br
+                     </p> 
+                     <h5><b>"Throwback o Pullback Bajista": </b></h5>
+                  <p>
+                      Cuando el activo hace una ruptura al alza, es decir, cambia su tendencia de Bajista a Alcista, primero rompe la tendencia, y luego vuelve a tocar la linea para seguir al alza, confirmando el cambio de tendencia. Este es el momento optimo de COMPRA (Posicionarse Alcista).
+                     </p> 
                  </div>
               </div>
               <div class="method-example">
                  <div class="method-example-part">
-                       <h5>Titulo de la imagen</h5>
-                       <p> <img src="images/contruccion.jpg" alt="titulo de la imagen" onclick="Zoom(this)">  </p>
+                       <h5>Directriz bajista</h5>
+                       <p> <img src="fotos/chartismo/tendencia-bajista.jpg" alt="Directriz bajista del trading" onclick="Zoom(this)">  </p>
                       <blockquote class="darker-grey">
-                         <p><a href="https://es.wikipedia.org">https://es.wikipedia.org/</a>.</p>
+                         <p><a href="https://es.wikipedia.org/wiki/Tendencias_de_mercado#Mercado_bajista_(Bear_Market)">https://es.wikipedia.org</a>.</p>
+                         <footer>Si quieres mas informacion visita esta pagina</cite></footer>
+                      </blockquote> <br><br>
+                      <h5>Directriz bajista</h5>
+                       <p> <img src="fotos/chartismo/pullback-bajista.jpg" alt="Ruotura de directriz bajista del trading" onclick="Zoom(this)">  </p>
+                      <blockquote class="darker-grey">
+                         <p><a href="https://es.wikipedia.org/wiki/Tendencias_de_mercado#Mercado_bajista_(Bear_Market)">https://es.wikipedia.org</a>.</p>
                          <footer>Si quieres mas informacion visita esta pagina</cite></footer>
                       </blockquote>
                     </div>
@@ -245,16 +298,23 @@
                   <div class="method-area">
                      <div class="method-copy">
                         <div class="method-copy-padding">
-                          <h3><b>TITULO DEL TEMA</b></h3>
+                          <h3><b>Los canales</b></h3>
                           <p>
-                           Contenido de la pagina. 
+                           Un canal es el espacio comprendido entre una directriz y su paralela por el que oscila el precio. Si es un canal alcista tendremos un canal ascendente y si es bajista tendremos un canal descendente. En los canales alcistas y bajistas la directriz que marca tendencia es siempre la línea que queda a la derecha. <br><br>
+                           Al igual que ocurre con las directrices, cuanto más tiempo y más impactos se produzcan a ambos lados del canal más fiabilidad e importancia tendrá.
                              </p> 
                     </div>
                  </div>
                  <div class="method-example">
                     <div class="method-example-part">
-                          <h5>Titulo de la imagen</h5>
-                          <p> <img src="images/contruccion.jpg" alt="titulo de la imagen" onclick="Zoom(this)">  </p>
+                          <h5>Canal alcista</h5>
+                          <p> <img src="fotos/chartismo/canal-alcista.jpg" alt="Canales del trading" onclick="Zoom(this)">  </p>
+                         <blockquote class="darker-grey">
+                            <p><a href="https://es.wikipedia.org">https://es.wikipedia.org/</a>.</p>
+                            <footer>Si quieres mas informacion visita esta pagina</cite></footer>
+                         </blockquote>
+                         <h5>Canal bajista</h5>
+                          <p> <img src="fotos/chartismo/canal-bajista.jpg" alt="Canales del trading" onclick="Zoom(this)">  </p>
                          <blockquote class="darker-grey">
                             <p><a href="https://es.wikipedia.org">https://es.wikipedia.org/</a>.</p>
                             <footer>Si quieres mas informacion visita esta pagina</cite></footer>
@@ -263,6 +323,45 @@
                      </div>
                   </div>
                   </section>
+                  <section id="documenter-2-4" class="method">
+                     <div class="method-area">
+                        <div class="method-copy">
+                           <div class="method-copy-padding">
+                             <h3><b>Soportes y resistencias</b></h3>
+                             <p> <br>
+                              <b> Un soporte</b> se produce en el momento en que el precio para su caída en un lugar concreto dentro de una tendencia bajista. En este punto la demanda de títulos es mayor que la oferta y frena su caída. Para considerar que se ha roto el soporte tenemos que dar un margen de maniobra al precio para evitar roturas falsas. <br><br>
+                              <b>Una resistencia</b> es un nivel de cotización en que el precio tiende a pararse dentro de una tendencia alcista. Es el punto en que la oferta de títulos frena la subida y pueden iniciarse caídas en las cotizaciones. Para considerar que la resistencia ha sido rota tenemos que dar un pequeño margen de maniobra al precio ya que muchas veces se producen roturas falsas. 
+                              <br><br>
+                              
+                              <b>Características comunes a los soportes y las resistencias:</b><br>
+                              <ol>
+                                 <li>Una vez han sido superadas tienden a intercambiar su papel. El soporte pasa a ser resistencia y la resistencia pasa a ser soporte.</li>
+                                 <li>Los niveles que actúan como soporte y resistencia son niveles psicológicos muy importantes para los inversores.</li>
+                                 <li>Cuanto mayor sea el número de veces que la línea frena la cotización más importante es. A partir de dos puntos de apoyo ya podemos tener un soporte o una resistencia, aunque es más recomendable tener tres puntos de contacto.</li>
+                                 <li>Es muy difícil encontrar niveles exactos, la importancia de éstos niveles la  encontramos en la zona en que se producen. Por ejemplo, el Ibex lleva mucho tiempo tocando los 10.000 puntos en tendencia alcista se considerará una resistencia aunque sus puntos de parada no sean exactamente los 10.000 puntos.</li>
+                              </ol>
+
+                                </p> 
+                       </div>
+                    </div>
+                    <div class="method-example">
+                       <div class="method-example-part">
+                             <h5>Soportes</h5>
+                             <p> <img src="fotos/chartismo/soportes.jpg" alt="Soportes y Resistencias" onclick="Zoom(this)">  </p>
+                            <blockquote class="darker-grey">
+                               <p><a href="https://es.wikipedia.org/wiki/Soporte_y_resistencia">https://es.wikipedia.org/</a>.</p>
+                               <footer>Si quieres mas informacion visita esta pagina</cite></footer>
+                            </blockquote>
+                            <h5>Resistencias</h5>
+                            <p> <img src="fotos/chartismo/resistencias.jpg" alt="Soportes y Resistencias" onclick="Zoom(this)">  </p>
+                           <blockquote class="darker-grey">
+                              <p><a href="https://es.wikipedia.org/wiki/Soporte_y_resistencia">https://es.wikipedia.org/</a>.</p>
+                              <footer>Si quieres mas informacion visita esta pagina</cite></footer>
+                           </blockquote>
+                          </div>
+                        </div>
+                     </div>
+                     </section>
 <!-- fin del segundo articulo-->  
   <!-- inicio del tercer articulo-->
 <section id="documenter-3" class="method">
@@ -497,7 +596,7 @@
             </div>
          </div>
       </div>
-      <!-- FIN DEL MENU CELULAR-->
+<!-- FIN DEL MENU CELULAR-->
 
       <script src="js/prism.js"></script>
 
