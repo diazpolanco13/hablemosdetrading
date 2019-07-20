@@ -1,1 +1,1 @@
-# hablemosdetrading
+# Tradingestudio
