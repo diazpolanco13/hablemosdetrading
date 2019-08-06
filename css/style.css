@@ -70,7 +70,7 @@ a:hover {
 p, ul, ol {
     margin: 18px 0;
     line-height: 22px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 li {
@@ -1659,7 +1659,7 @@ blockquote footer,
 blockquote small,
 blockquote .small {
     display: block;
-    font-size: 80%;
+    font-size: 100%;
     line-height: 1.42857143;
     color: inherit;
     opacity: 0.6;
